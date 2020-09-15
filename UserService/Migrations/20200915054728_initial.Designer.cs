@@ -9,7 +9,7 @@ using UserService.Database;
 namespace UserService.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20191217165605_initial")]
+    [Migration("20200915054728_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

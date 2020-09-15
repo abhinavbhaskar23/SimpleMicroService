@@ -13,7 +13,7 @@ namespace UserService.Database
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"data source=Shailendra\SqlExpress; initial catalog=UserMicroservice;persist security info=True;user id=sa;password=dotnettricks;");
+            optionsBuilder.UseSqlServer(@"data source=INGUEUCLP000778; initial catalog=UserMicroservice;persist security info=True;user id=sa1;password=sa@1234;");
         }
     }
 }
